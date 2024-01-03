@@ -1,6 +1,7 @@
 # Databricks notebook source
 import urllib
 from pyspark.sql.functions import monotonically_increasing_id
+from pyspark.sql import functions as F
 
 # COMMAND ----------
 
