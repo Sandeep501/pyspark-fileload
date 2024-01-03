@@ -1,7 +1,10 @@
 # Databricks notebook source
+# Python S3 Data Load - version 1.0
+
+# COMMAND ----------
+
 import urllib
 from pyspark.sql.functions import monotonically_increasing_id
-from pyspark.sql import functions as F
 
 # COMMAND ----------
 
